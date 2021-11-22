@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlanView_r">
+
+    <Button
+        android:id="@+id/dietaryBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:text="Dietary plans"
+        android:onClick="showData"
+        />
+    <Button
+        android:id="@+id/exerciseBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="230dp"
+        android:text="Exercise plans"
+        android:onClick="showData_e"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/data_dietRV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/dietaryBtn" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/data_exerciseRV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/exerciseBtn" />
+</RelativeLayout>

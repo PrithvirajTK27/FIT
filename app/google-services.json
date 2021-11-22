@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "179407359346",
+    "firebase_url": "https://fit-app-6e69c-default-rtdb.firebaseio.com",
+    "project_id": "fit-app-6e69c",
+    "storage_bucket": "fit-app-6e69c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179407359346:android:ab2e77edceffe883b321eb",
+        "android_client_info": {
+          "package_name": "com.fitness.fit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "179407359346-d0ivcvo1829a453vbfqo602rpqe91rcr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtiaaM34uE1HRHv4nQcHuty87N3r9srK8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "179407359346-d0ivcvo1829a453vbfqo602rpqe91rcr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
